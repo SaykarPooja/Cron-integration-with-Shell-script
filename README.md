@@ -1,4 +1,4 @@
-# Pooja-cron-integration
+**Pooja-cron-integration**
 Shell script + cron job integration for Ubuntu
 
 
@@ -11,7 +11,7 @@ defalut select nano
 * * * * * /root/pooja.sh >> /root/pooja.log 2>&1--->run cron job every 1 min 
 
 
-# check cron job got executed or not 
+**check cron job got executed or not **
 crontab -l
 
 systemctl status cron
